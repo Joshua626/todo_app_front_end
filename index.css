@@ -3,6 +3,7 @@ html {
     color:blue;
     border-style: solid;
     border-color:black;
+    text-align: center
 }
 .todo{
     font-weight:bold;
@@ -21,4 +22,5 @@ html {
 li{
     padding:5px;
     Margin-bottom:10px;
+    text-align: center
 }
