@@ -1,3 +1,13 @@
-html{
+html {
     font-family:sans-serif;
+    color: blue;
+}
+.todo{
+    font-weight:bold;
+    color#f44336;
+    background-color:#F5F5F5;
+    border-radius:50pxi;
+    font-size:14px;
+    padding:5px 10px 5px 10px;
+    
 }
