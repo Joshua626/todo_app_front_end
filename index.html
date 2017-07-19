@@ -3,45 +3,44 @@
     <Head>
         <title>Todo List Application</title>
         <link href="index.css" type="text/css" rel="stylesheet">
-        <script type="text/javascript" src="index.js"></script>
+        <!-- html loads from top to bottom; make sure the jquery loads first before the file-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
     </Head>
     <body>
-        <h1> Todo list Application</h1>
-        <ul>
-            <li>
-                <input type="checkbox">
-               <a href="Show.html">
-                <span class="todo"> Do laundry </span></a>
-                
-             </li>
-            <li>
-                <input type="checkbox">
-                <a href="Show.html">
-                <span class="todo"> Take out the trash </span> </a>
-            </li>
-            <li>
-                <input type="checkbox">
-               <a href="Show.html">
-               <span class="todo"> Cut the grass </span></a>
-            </li> 
-            <li>
-                <input type="checkbox">
-               <a href="Show.html">
-                <span class="todo"> Clean my room </span> </a>
-            </li>
-            <li>
-                <input type="checkbox">
-                <a href="Show.html">
+            <h1> Todo list Application</h1>
+    <ul>
+        <li>
+            <input type="checkbox">
+            <a href="show.html">
+            <span class="todo"> Do laundry </span></a>
+        </li>
+        <li>
+            <input type="checkbox">
+            <a href="show.html">
+            <span class="todo"> Take out the trash </span> </a>
+        </li> 
+        <li>
+            <input type="checkbox">
+            <a href="show.html">
+            <span class="todo"> Cut the grass </span></a>
+        </li> 
+        <li>
+            <input type="checkbox">
+            <a href="show.html">
+            <span class="todo"> Clean my room </span> </a>
+        </li>
+        <li>
+            <input type="checkbox">
+            <a href="show.html">
                 <span class="todo"> Do dishes</span> </a>
-            </li>
-        
-            
-        </ul>
+        </li>
+    </ul>
         <div id="new-todo-block"> 
-             <input id="text" type= "text" Placeholder="enter task">
+             <input id="text" type= "text" placeholder="enter task">
              <input id="submit-button" type="submit" value="Add to do">
         </div>
+         
          
         <!--hello this is a great day-->
     </body>
